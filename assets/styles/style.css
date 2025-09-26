@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #b7b6c2;
+    --secondary-color: #000000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+.container {
+    background-color: rgb(119, 247, 247);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col {
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.result-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 100;
+    color: #ffffff;
+}
