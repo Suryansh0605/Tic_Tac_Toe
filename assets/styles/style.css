@@ -45,3 +45,17 @@
     z-index: 100;
     color: #ffffff;
 }
+
+.X {
+    color: #ff0000;
+    font-weight: 800;
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: 1px;
+}
+
+.O {
+    color: #0000ff;
+    font-weight: 800;
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: 1px;
+}

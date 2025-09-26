@@ -33,9 +33,16 @@ function handleClick(el) {
     // console.log(id);
     arr[id] = currentPlayer;
     el.innerText = currentPlayer;
+    if(currentPlayer == "X") {
+        el.classList.add("X");
+        el.classList.remove("O");
+    }
+    else {
+        el.classList.add("O");
+        el.classList.remove("X");
+    }
     checkWinner();
     currentPlayer = currentPlayer == 'X' ? 'O' : 'X';
-
     // console.log(array);
     
 }
